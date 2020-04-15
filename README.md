@@ -1,7 +1,7 @@
 # QuickStart2020
  An angular 9 tempalte application
  
- [Online applicationin in action at](https://www.siraj360.com/QuickStart "QuickStart2020")
+ [Online applicationin in action at](http://www.siraj360.com/QuickStart/ "QuickStart2020")
  
 ## Key Features and Technologies
 
