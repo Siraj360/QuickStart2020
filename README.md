@@ -3,4 +3,4 @@
  
  ## Application ScreenShot
 
-![alt tag](https://github.com/SirajGadhia/School360/blob/master/S3601.PNG)
+![alt tag](https://github.com/Siraj360/QuickStart2020/blob/master/QuickStart2020.png)
