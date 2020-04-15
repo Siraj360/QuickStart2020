@@ -1,0 +1,1 @@
+ng build QuickStart2020 --aot --baseHref=QuickStart/ --buildOptimizer --no-commonChunk --optimization --progress --no-sourceMap --no-vendorChunk

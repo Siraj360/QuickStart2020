@@ -1,0 +1,27 @@
+<div class="container p-y-3">
+    <div class="row" *ngIf="products">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Code</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of products; let idx = index">
+                    <td scope="row">{{idx + 1}}</td>
+                    <td>{{product.productName}}</td>
+                    <td>{{product.productCode}}</td>
+                    <td>{{product.description}}</td>
+                    <td>{{product.price | currency:'USD':true:'2.2-2'}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

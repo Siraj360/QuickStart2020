@@ -1,0 +1,135 @@
+
+.email-signature{
+    background: #fff;
+    font-family: 'Muli', sans-serif;
+    padding: 15px 20px 50px 220px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.email-signature:before,
+.email-signature:after{
+    content: "";
+    background: rgb(184, 184, 115); //#0088dc;
+    width: 160px;
+    height: 100%;
+    border-radius: 0 0 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.email-signature:after{
+    width: 100px;
+    height: 40px;
+    border-radius: 0 0 0 100px;
+    left: auto;
+    right: 0;
+}
+.email-signature .signature-icon{
+    height: 160px;
+    width: 160px;
+    border: 5px solid #fff;
+    border-radius: 0 30%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+}
+.email-signature .signature-icon img{
+    height: auto;
+    width: 100%;
+}
+.email-signature .signature-details{
+    color: rgb(184, 184, 115); //#0088dc;
+   padding: 0 20px 0 0;
+   margin: 0 0 0 -25px;
+}
+.email-signature .title{
+    font-size: 20px;
+    font-weight: 700;
+
+    text-transform: capitalize;
+    margin: 0 0 3px;
+}
+.email-signature .post{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.email-signature .signature-content{
+    color: #111;
+    padding: 15px 0 0;
+    margin: 0;
+    list-style: none;
+}
+.email-signature .signature-content li{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.email-signature .signature-content li:last-child{ margin: 0; }
+.email-signature .signature-content li span{
+    color: #fff;
+    background: rgb(184, 184, 115) ;//#0088dc;
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    border-radius: 20px;
+}
+.email-signature .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 10px;
+    right: 13px;
+}
+.email-signature .icon li{ display: inline-block; }
+.email-signature .icon li a{
+    color: #fff;
+    background: #111;
+    font-size: 14px;
+    text-align: center;
+    line-height: 28px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.email-signature .icon li a:hover{
+    color: #fff;
+    background: rgb(184, 184, 115);//#0088dc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+@media screen and (max-width:576px) {
+    .email-signature{ padding: 210px 0 40px 0; }
+    .email-signature:before{
+        width: 100%;
+        height: 150px;
+        border-radius: 0 0 150px 0;
+    }
+    .email-signature:after{
+        border-radius: 100px 0 0 0;
+        top: auto;
+        bottom: 0;
+    }
+    .email-signature .signature-icon{
+        transform: translateX(-50%);
+        top: 35px;
+        left: 50%;
+    }
+    .email-signature .signature-details,
+    .email-signature .signature-content{
+        text-align: center;
+        padding: 0;
+        margin: 0 0 15px;
+    }
+    .email-signature .icon{
+        right: auto;
+        left: 13px;
+    }
+}
+

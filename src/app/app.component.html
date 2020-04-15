@@ -1,0 +1,28 @@
+<div class="page-wrapper " [ngClass]="{ toggled: getSideBarState() }">
+  <sidebar></sidebar>
+
+  <main class="page-content">
+    <!-- <div class="container-fluid"> -->
+
+    <div>
+      <div class="navbar navbar-right navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" (click)="toggleSidebar()">
+          <span class="navbar-toggler-icon"></span>
+          <span *ngIf="getSideBarState()" class="nav-right-header">Quick Start 2020</span>
+          <span class="span-title">{{title}}</span>
+        </a>
+
+      </div>
+
+      <router-outlet #o="outlet"></router-outlet>
+    </div>
+
+    <!-- </div> -->
+
+  </main>
+  <div class="section-footer text-right">
+    <span class="small">
+      &nbsp; <strong>www.Siraj360.com</strong>, All Rights Reserved.
+    </span>
+  </div>
+</div>

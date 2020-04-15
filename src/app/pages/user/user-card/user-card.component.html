@@ -1,0 +1,27 @@
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css /> -->
+
+
+              <div class="email-signature">
+                  <div class="signature-icon">
+                      <img [src]="user.picture" alt="">
+                  </div>
+                  <div class="signature-details">
+                      <h3 class="title">{{user.first}} {{user.last}}</h3>
+                      <span class="post">ID: {{user.id}}</span>
+                  </div>
+                  <ul class="signature-content">
+                      <li><span class="fa fa-phone"></span> {{user.phone}}</li>
+                      <li><span class="fa fa-envelope"></span>{{user.email}}</li>
+                      <li><span class="fas fa-file-signature"></span>Joned on: {{user.registered | date : 'dd MMM yyyy'}}</li>
+                      <li><span class="fas fa-map-marker-alt"></span>{{user.address2}}</li>
+
+                  </ul>
+                  <!-- <ul class="icon">
+                      <li><a href="" class="fab fa-facebook"></a></li>
+                      <li><a href="" class="fab fa-google-plus"></a></li>
+                      <li><a href="" class="fab fa-twitter"></a></li>
+                  </ul> -->
+              </div>
+<br>
+
+

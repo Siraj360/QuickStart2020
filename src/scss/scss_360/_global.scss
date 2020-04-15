@@ -1,0 +1,101 @@
+
+
+$dark-color:               #7A7A3F;;
+$darker-color:             #515128;;
+$section-bg:               #F5F5E7;
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+   max-width: 100%;
+}
+
+
+/* Page Sections */
+.section,
+.section-gray,
+.section-light-gray,
+.section-colored {
+ padding: 60px 0;
+}
+
+.section-colored {
+ background-color: $section-bg;
+ color: $dark-color;
+}
+
+.section-footer
+{
+background-color:$darker-color !important;
+color:  #dfdfdf!important;
+text-align: center;
+vertical-align: middle !important;
+height: auto !important;
+padding: 15px 10px !important;
+margin: 0 !important;
+ .span
+ {
+   float: right;
+ }
+
+}
+
+.section-gray
+{
+   background-color: gray;
+   color: white;
+  }
+
+.section-light-gray
+{
+   background-color: #f2f2f2;
+   color: #232323;
+  }
+
+.sction-space
+{
+   min-height: 500px;
+   padding-bottom: 50px;
+}
+
+.sction-space-750
+{
+   min-height: 750px;
+   padding-bottom: 50px;
+}
+
+//Bootstrap 4 fix
+.p-a-1
+{
+   padding: 15px;
+}
+.p-y-1
+{
+   padding: 15px 0;
+}
+p-y-3
+{
+   padding: 40px 0;
+}
+
+//Active link
+.nav-active
+{
+  color: white !important;
+ // border-bottom: 4px solid white;
+}
+
+//navbar-brand
+
+.navbar-brand
+{
+  color: white !important;
+}
+
