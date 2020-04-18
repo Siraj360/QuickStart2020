@@ -18,6 +18,6 @@
 *   Sidebar Menu with dropdown sub menu
 *   Section SASS classes with footer
  
- ## Application ScreenShot
+ ## Application Screenshot
 
 ![alt tag](https://github.com/Siraj360/QuickStart2020/blob/master/QuickStart2020.png)
